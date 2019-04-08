@@ -1,9 +1,11 @@
 .container{
-  position: absolute;
+  position: relative;
   width: 100%;
-  bottom: 0;
+  height: 3px;
   overflow: hidden;
   .itemWrapper{
+    position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
