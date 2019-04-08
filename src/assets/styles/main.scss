@@ -1,0 +1,11 @@
+body {
+  background-color: #F4F4F4;
+}
+
+html * {
+  box-sizing: border-box
+}
+
+body, html, #root, #root > div {
+  min-height: 100%;
+}
