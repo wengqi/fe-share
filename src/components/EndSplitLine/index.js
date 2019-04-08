@@ -3,9 +3,9 @@ import styles from './index.module.scss'
 
 class EndSplitLine extends Component {
   static defaultProps = {
-    count: 40,
+    count: 31,
     deepColor: '#ECEDED',
-    lightColor: '#F1F2F2'
+    lightColor: '#EFF0F0'
   }
   render() {
     const {count, deepColor, lightColor} = this.props
@@ -16,7 +16,7 @@ class EndSplitLine extends Component {
         {
           Array(count).fill(1).map((item, index) => {
             return (
-              <div key={index} className={styles.item} style={{background: `radial-gradient(circle, ${lightColor}, ${deepColor}`}}></div>
+              <div key={index} className={styles.item} style={{background: `radial-gradient(circle farthest-side at bottom, ${lightColor}, ${deepColor})`}}></div>
             )
           })
         }
