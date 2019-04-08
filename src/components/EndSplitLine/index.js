@@ -16,7 +16,7 @@ class EndSplitLine extends Component {
         {
           Array(count).fill(1).map((item, index) => {
             return (
-              <div key={index} className={styles.item} style={{background: `radial-gradient(${lightColor}, ${deepColor}`}}></div>
+              <div key={index} className={styles.item} style={{background: `radial-gradient(circle, ${lightColor}, ${deepColor}`}}></div>
             )
           })
         }
