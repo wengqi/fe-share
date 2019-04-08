@@ -5,13 +5,13 @@
   overflow: hidden;
   .itemWrapper{
     position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     width: 100%;
     margin-left: -5px;
+    bottom: 0;
     .item{
       flex-basis: 6px;
       flex-shrink: 0;
