@@ -1,5 +1,4 @@
-此项目使用[Create React App](https://github.com/facebook/create-react-app)创建。<br>
-会持续增加一些前端知识小demo。
+此项目使用[Create React App](https://github.com/facebook/create-react-app)创建，会持续增加一些前端知识小demo。<br>
 
 ## 命令
 
