@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import EndLine from '../../components/EndSplitLine'
 import styles from './index.module.scss'
 
-class EndSplitLine extends Component {
+class EndSplitLineCard extends Component {
   render() {
     return (
       <div className={styles.container}>
@@ -25,4 +25,4 @@ class EndSplitLine extends Component {
   }
 }
 
-export default EndSplitLine
+export default EndSplitLineCard

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Main = React.lazy(() => import('../pages/Main'))
-const EndSplitLine = React.lazy(() => import('../pages/EndSplitLine'))
+const EndSplitLine = React.lazy(() => import('../pages/EndSplitLineCard'))
 
 export const routerData = [
   {
