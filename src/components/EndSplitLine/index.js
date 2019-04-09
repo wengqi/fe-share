@@ -11,8 +11,7 @@ class EndSplitLine extends Component {
     const {count, deepColor, lightColor} = this.props
 
     return (
-      <div className={styles.container}>
-        <div className={styles.itemWrapper}>
+      <div className={styles.itemWrapper}>
         {
           Array(count).fill(1).map((item, index) => {
             return (
@@ -20,7 +19,6 @@ class EndSplitLine extends Component {
             )
           })
         }
-        </div>
       </div>
     )
   }
